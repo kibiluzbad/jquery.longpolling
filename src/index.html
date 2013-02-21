@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	
+	<script src="jquery.longpolling.js"></script>	
+	<script>
+
+	$(function() {
+		$(document).longPolling({
+			url: '',//TODO: Add url to test
+			success: function( data, textStatus, jqXHR ){
+				alert("Teste");
+			}
+		});
+	});
+	</script>
+</head>
+<body>
+
+</body>
+</html>
