@@ -5,7 +5,7 @@
  *
  * Project repository: https://github.com/kibiluzbad/jquery.longpolling
  * Licensed under the GPL license:
- *    https://github.com/kibiluzbad/license/gpl-license-v2.txt
+ *    https://github.com/kibiluzbad/jquery.longpolling/blob/master/license/gpl-license-v2.txt
  */
 (function( $ ){
 
