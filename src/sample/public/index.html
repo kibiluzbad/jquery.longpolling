@@ -8,15 +8,17 @@
 
 	$(function() {
 		$(document).longPolling({
-			url: '',//TODO: Add url to test
+			url: 'http://localhost:4567/test',
+			dataType: 'text',
 			success: function( data, textStatus, jqXHR ){
-				alert("Teste");
-			}
+				if(data) setTimeout(function(){$("#area").text(data);},1000);
+			},
+			ifModified: true
 		});
 	});
 	</script>
 </head>
 <body>
-
+<div id="area"></div>
 </body>
 </html>
