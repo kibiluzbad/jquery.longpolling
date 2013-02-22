@@ -1,3 +1,12 @@
+/*!
+ * jQuery Long Polling plugin
+ * version: 0.0.1
+ * @requires jQuery v1.5 or later
+ *
+ * Project repository: https://github.com/kibiluzbad/jquery.longpolling
+ * Licensed under the GPL license:
+ *    https://github.com/kibiluzbad/license/gpl-license-v2.txt
+ */
 (function( $ ){
 
   $.fn.longPolling = (function( options ) {  
